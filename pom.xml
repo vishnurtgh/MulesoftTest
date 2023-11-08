@@ -7,7 +7,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>cicdtest</name>
+	<name>Asish</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,21 +30,21 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.4.0</muleVersion>
-						<username>ashu920</username>
-						<password>Ashu@311211</password>
-						<applicationName>CICD111</applicationName>
-						<environment>Sandbox</environment>
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
-						<businessGroup>TGH Software Solution</businessGroup>
-						<properties>
-							<key>value</key>
-						</properties>
-					</cloudHubDeployment>
-					<classifier>mule-application</classifier>
+				   <cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <muleVersion>4.4.0</muleVersion>
+				      <username>vishnu_tgh</username>
+				      <password>Comrade@5730</password>
+				      <applicationName>CICDTest</applicationName>
+				      <environment>Sandbox</environment>
+				      <workers>1</workers>
+				      <workerType>MICRO</workerType>
+				      <businessGroup>TGH</businessGroup>
+				      <properties>
+				        <key>value</key>
+				      </properties>
+				   </cloudHubDeployment>
+				   <classifier>mule-application</classifier>	
 				</configuration>
 			</plugin>
 		</plugins>
